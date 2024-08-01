@@ -232,4 +232,142 @@ switch(amHungry == true){
 };//END SWITCH 
 
 
+//CONDITIONAL PRACTICE PROBLEMS
+
+//FAVORITE FRUIT CHECKER
+// DEFINE AN ARRY OF FAV FRUITS
+let fruit_arr=["grape", "pear", "pineapple"];
+
+//DEFINE A VARIABLE FOR THE FRUIT TO CHECK
+let checkFruit = "grape"
+
+// CHECK IF THE FRUIT IS IN THE ARRAY AND OUTPUT THE RESULT
+if (checkFruit === fruit_arr[0]) {
+    console.log(`${checkFruit} is on list `);
+}
+
+if (checkFruit === fruit_arr[1]) {
+    console.log(`${checkFruit} is on list `);
+}
+
+if (checkFruit === fruit_arr[2]) {
+    console.log(`${checkFruit} is on list `);
+}
+
+else {
+    console.log(`${checkFruit} is NOT on list `);
+
+};
+
+
+
+
+if (checkFruit === fruit_arr[0]) {
+    console.log(`${checkFruit} is on list `);
+}
+else if (checkFruit === fruit_arr[1]) {
+    console.log(`${checkFruit} is on list `);
+}
+else if (checkFruit === fruit_arr[2]) {
+    console.log(`${checkFruit} is on list `);
+}
+else{
+    console.log(`${checkFruit} is NOT on list `);
+};
+
+
+
+
+
+//GRADE CATEGORIZER
+//DEFINE A VARIABLE FOR THE GRADE
+let gradeNum= 75;
+let gradeLetter;
+
+//CATEGORIZE THE GRADE
+if(gradeNum>=90){
+    gradeLetter="A"
+};
+
+if(gradeNum>=80){
+    gradeLetter="B"
+}; 
+
+if(gradeNum>=70){
+    gradeLetter="C"
+}
+if(gradeNum>=60){
+    gradeLetter="D"
+}
+if(gradeNum<60){
+    gradeLetter="F"
+};
+
+//OUTPUT THE RESULT
+console.log(`${gradeLetter}`); 
+
+debugger
+//DAY OF THE WEEK CHECKER
+//DEFINE AN ARRY OF DAYS OF THE WEEK
+let boop_arr = ["Mon", "Tues", "Wed", "Thurs", "Fri", "Sat", "Sun"];
+//DEFINE A VARIABLE FOR THE DAY TO CHECK
+let boopDay="Thurs";
+let weekday=false; 
+//CHECK IF THE DAY IS A WEEKDAY OR WEEKEND
+
+//I want to know if thursday is a weekday or weekend...
+//how do I know - mon tue wed thur fri is not a weeked 
+//if boopDay === mon tue wed thru fri - weekday is true
+//if boopday === sat or sun weekday is false
+
+
+if(boopDay===boop_arr[0]){
+    weekday=true
+}
+else if(boopDay==boop_arr[1]) {
+    weekday=true; 
+}
+else if (boopDay==boop_arr[2]){
+    weekday=true;
+}
+else if (boopDay==boop_arr[3]){
+    weekday=true;
+}
+else if (boopDay==boop_arr[4]){
+    weekday=true;
+}
+
+else if(boopDay== boop_arr[5]){
+    weekday=false; 
+}
+else if (boopDay==boop_arr[6]){
+    weekday=false;
+}
+else{
+    console.log("That is not a day.")
+}
+
+if(weekday===true){
+    console.log("It is a weekday! ")
+}
+
+else{
+    console.log("It is a weekend!! ")
+}
+
+
+
+
+
+//TEMPERATURE CHECKER
+//DEFINE A VARIABLE FOR THE TEMPERATURE
+//CATEGORIZE THE TEMPERATURE
+//OUTPUT THE RESULT
+
+
+//NUMBER SIGN CHECKER
+//DEFINE A VARIABLE FOR THE NUMBER
+//CHECK THE SIGN OF THE NUMBER
+//OUTPUT THE RESULT
+
 
